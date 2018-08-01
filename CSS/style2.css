@@ -22,7 +22,10 @@ a:visited {
 }
 p {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
+}
+h2{
+  font-size: 30px;
 }
 .imgOne {
   width: 100%;
