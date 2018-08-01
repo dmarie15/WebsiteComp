@@ -1,0 +1,22 @@
+body {
+  background-color: colour: #e8d8c2;
+}
+.topnav {
+  text-align: center;
+  background-color: black;
+  text-decoration-color: white;
+  border: 1px solid black;
+}
+.active {
+  background-color: white;
+  text-decoration-color: black;
+}
+#title {
+  text-align: center;
+  font-family: "Cookie", cursive;
+  font-size: 100px;
+}
+a:visited {
+    text-decoration: none;
+    decoration: none;
+}
