@@ -39,7 +39,7 @@ p {
 .navbar-brand {
   font-family: "Cookie", cursive;
 
-  * {box-sizing:border-box}
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -111,6 +111,7 @@ p {
   transition: background-color 0.6s ease;
 }
 
+
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -133,14 +134,11 @@ p {
   to {opacity: 1}
 }
 body{
-  background-color:#e8d8c2
+  background-color:#e8d8c2;
 }
 h1{
   color: ##998524;
   text-align: center;
-  font-family: "Impact";
-  font-style: italic;
-  text-decoration: underline;
 }
 img{
     display: block;
@@ -173,4 +171,18 @@ h2{
   }
 .shoptext{
   font-size: 10px;
+}
+
+table{
+  table-layout: fixed;
+}
+
+.tb-width{
+  width: 33%;
+}
+
+th {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
