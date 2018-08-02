@@ -21,15 +21,8 @@ a:visited {
 }
 p {
   text-align: center;
-<<<<<<< HEAD
-  font-size: 20px;
-}
-h2{
-  font-size: 30px;
-=======
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
->>>>>>> 4cd74fe98a2c782db2e0d9c4390b423fff785505
 }
 .imgOne {
   width: 100%;
@@ -146,17 +139,22 @@ body{
 h1{
   color: ##998524;
   text-align: center;
-  font-family: "Cookie";
 }
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
 }
+/* p{
+  border-style: solid;
+  border-width: 2px;
+  text-align: left;
+  font-family:"fantasy";
+  font-style: italic;
+} */
 #catshampoo {
-  width:75px;
- height:100px;
+  width:100px;
+ height:250px;
 }
 #catpost{
   width:300px;
@@ -166,17 +164,10 @@ img{
   width:300px;
   height:250px;
 }
-h2{
-  border-style: solid;
-  border-width: 1px;
-  }
+
 .shoptext{
   font-size: 10px;
 }
-<<<<<<< HEAD
-h3{
-  font-size:20px
-=======
 
 table{
   table-layout: fixed;
@@ -190,9 +181,4 @@ th {
   font-size: 15px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
->>>>>>> 4cd74fe98a2c782db2e0d9c4390b423fff785505
-}
-
-.custom-format {
-  vertical-align: middle;
 }

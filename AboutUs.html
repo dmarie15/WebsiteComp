@@ -2,10 +2,9 @@
 <html>
 <head>
   <title> Cats </title>
-  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Quicksand" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="CSS/style2.css">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -26,42 +25,142 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ><a href="#">Types of cats <span class="sr-only">(current)</span></a></li>
-        <li class="active"><a href="#">About us</a></li>
+        <li class="active"><a href="AboutUs.html">About us</a></li>
+        <li ><a href="index.html">Types of cats <span class="sr-only">(current)</span></a></li>
           <li><a href="#">Map</a></li>
-            <li><a href="#">Shop</a></li>
-        <li><a href="#">Checkout</a></li>
+            <li><a href="shop_new.html">Shop</a></li>
+            <li><a href="#">Contact us</a></li>
       </ul>
       <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
+       <div class="form-group">
+         <input type="text" class="form-control" placeholder="Search">
+       </div>
+       <button type="submit" class="btn btn-default">Submit</button>
+     </form>
+     <ul class="nav navbar-nav navbar-right">
+       <li><a href="signin.html">Sign in/ Sign up</a></li>
+       <li class="dropdown">
+           <li role="separator" class="divider"></li>
+           <li><a href="#">Checkout</a></li>
+         </ul>
+       </li>
 
     </div>
   </div>
 </nav>
+  <div class="container">
 <div>
   <h1 id="title">CatsForYou</h1>
 </div>
 <div >
-    <img src="image/thumbnail_finaltext.png" style="width:100%">
-  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="image/catlong1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="cookie">We care about your cats as much as you</h1>
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="image/catlong2.jpeg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="cookie">"Five Stars" - PetsAtHome</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="image/catlong3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="cookie">Collaborations with over 90 companies</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse store</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 <div>
-  <h1> About Us </h1>
   <br><br>
-  <p> <strong>CatsForYou</strong> is an exclusive online pet store which is designed to fit our customers' needs.<br>
-    For our customers' convenience, we have included several different breeds of cats with some basic information, <br>
-    so that you can get a feel for each of the breeds. We also provide a cat shop, which sells quality products for <br>
-    your feline friends, ranging from cat food to scratching posts, collars to squeaky toys. All of these items are <br>
-    accessible by a click of a button; quick and simple. Whether you need medical help, standard items or pampering for your cat, <br>
+  <h1 id="header">About Us</h1>
+  <br>
+  <p id="aboutus"> <span class="cookie">CatsForYou</span> is an exclusive online pet store which is designed to fit our customers' needs.
+    For our customers' convenience, we have included several different breeds of cats with some basic information,
+    so that you can get a feel for each of the breeds. We also provide a cat shop, which sells quality products for
+    your feline friends, ranging from cat food to scratching posts, collars to squeaky toys. All of these items are
+    accessible by a click of a button; quick and simple. Whether you need medical help, standard items or pampering for your cat,
     we've got you covered.</p>
    </div>
  </div>
+ <br><br>
+ <hr class="featurette-divider">
+<div class="text-center"> <h1 class="cookie">Cats in the news</h1></div>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Scottish wildcat: 'Rarest kittens' in the world rescued, group says <span class="text-muted"><small>19th July 2018<small></span></h2>
+            <p class="lead">Wildcat Haven says the animals were found "dehydrated" and "weak" in the West Highlands of Scotland.
+The group says the kittens are being cared for until they're old enough to be released into the wild.
+Only 35 wildcats are left in Scotland, Wildcat Haven says. The kittens' rescue offers hope to a species which is near extinction.
+Read more at <a href="https://www.bbc.co.uk/news/newsbeat-44885523?intlink_from_url=https://www.bbc.co.uk/news/topics/cvjk7vv0w40t/cats&link_location=live-reporting-story">here</a> to read more.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="image/rarecat.jpg" width= 90% alt="image from story">
+          </div>
+        </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Henrietta the kitten was born with two extra legs <span class="text-muted"><small>31st July 2018</small></span></h2>
+            <p class="lead">Her extra limbs are impeding her growth so Feline Friends is fundraising to raise money for an operation.
+She's currently being looked after in Wallsend but hopes to find her forever home after the operation.
+Watch the video <a href="https://www.bbc.co.uk/news/av/uk-england-tyne-45025221/henrietta-the-kitten-with-two-extra-legs-in-wallsend?intlink_from_url=https%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Ftopics%2Fcvjk7vv0w40t%2Fcats&link_location=live-reporting-map">
+here </a></p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="image/twolegs.jpg" width= 90% alt="image from story">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Cat stows away in Chatteris windscreen repair van <span class="text-muted"><small>6th July 2018</small></span></h2>
+            <p class="lead">Vets are trying to find the owner of a curious cat that stowed away in the back of a windscreen repair van.
+The mobile technician discovered the ginger and white female when he returned to his home in Chatteris, Cambridgeshire, after working across East Anglia.
+The unchipped cat could have hopped in the back from as far away as Ipswich, vets said. Appeals have been put on social media to locate her owner.
+Read more <a href="https://www.bbc.co.uk/news/uk-england-cambridgeshire-44738677?intlink_from_url=https://www.bbc.co.uk/news/topics/cvjk7vv0w40t/cats&link_location=live-reporting-story">
+here</a></p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="image/stowaway.jpg" width= 90% alt="image from story">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+<br><br>
  <div id="buzz" class="text-center">
-   <h2><small>The Buzz</small><br />What are people saying?</h2>
+   <h2 class="cookie"><small>Reviews</small><br />A word from our customers...</h2>
      <div class="row">
        <div class="col-sm-4">
      <img class="img-circle" src='image/female2.jpg'>
@@ -87,13 +186,21 @@
    </div>
  </div>
 </div>
-<div id='social-buttons'>
-  <button class='btn btn-lg btn-twitter'>Twitter</button>
-  <button class='btn btn-lg btn-facebook'>Facebook</button>
-  <button class='btn btn-lg btn-pinterest'>Pinterest</button>
+<footer class="container">
+      <small>  <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2018 Company, Inc.&middot; <a href="#">Privacy</a>
+          &middot; <a href="#">Terms and conditions</a>
+          <div id='social-buttons'>
+          <button class='btn btn-lg btn-twitter'>Twitter</button>
+          <button class='btn btn-lg btn-facebook'>Facebook</button>
+          <button class='btn btn-lg btn-pinterest'>Pinterest</button>
+        </div></a> </p>
+      </footer>
+    </main>
 </div>
 </div>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+
  </body>
 </html>
